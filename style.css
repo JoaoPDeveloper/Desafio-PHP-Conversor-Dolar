@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace ;
     box-sizing: border-box;
 }
 
@@ -14,7 +14,6 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -135,6 +134,7 @@ form {
     background-color: rgba(55, 41, 145, 0.2);
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
 }
 
 form label {

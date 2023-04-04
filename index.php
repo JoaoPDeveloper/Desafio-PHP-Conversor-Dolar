@@ -25,10 +25,10 @@
       
      //formatação de moedas com internacionalização!
      $padrao = numfmt_create("pt-BR", NumberFormatter::CURRENCY); 
-
-     echo "Seus " . numfmt_format_currency($padrao,$real,"BRL") . " equivalem a  <strong>" . numfmt_format_currency($padrao, $dolar, "USD") . "</strong>";
+     echo "<br> Seus " . numfmt_format_currency($padrao,$real,"BRL") . " equivalem a  <strong>" . numfmt_format_currency($padrao, $dolar, "USD") . "</strong>";
 
     ?>
+    <br>
     <br>
     <br>
           <button onclick="javascript:history.go(-1)">🔃 Voltar</button>
